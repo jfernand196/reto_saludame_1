@@ -5,7 +5,14 @@ app.get("/", (req, res) => {
 
     const nombre = req.query.nombre;
 
-    res.send(`<h1> Hola ${nombre}! </h1>`)
+    if(nombre){
+        res.send(`<h1> Hola ${nombre}! </h1>`)
+    }
+    else{
+        res.send(`<h1>Hola desconocido!.`)
+    }
+
+   
 })
 
 
