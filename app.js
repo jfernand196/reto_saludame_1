@@ -5,7 +5,7 @@ app.get("/", (req, res) => {
 
     const nombre = req.query.name;
 
-    res.send(`<h1> Hola ${nombre} !`)
+    res.send(`<h1> Hola ${nombre} ! </h1>`)
 })
 
 
