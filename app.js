@@ -9,7 +9,7 @@ app.get("/", (req, res) => {
         res.send(`<h1>Hola ${nombre}!</h1>`)
     }
     else{
-        res.send(`<h1>Hola desconocido!.</h1>`)
+        res.send(`<h1>Hola desconocido!</h1>`)
     }
 
    
