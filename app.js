@@ -3,9 +3,9 @@ const app = express();
 
 app.get("/", (req, res) => {
 
-    const nombre = req.query.name;
+    const nombre = req.query.nombre;
 
-    res.send(`<h1> Hola ${nombre} ! </h1>`)
+    res.send(`<h1> Hola ${nombre}! </h1>`)
 })
 
 
